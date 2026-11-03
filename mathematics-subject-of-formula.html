@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mathematics — Subject of formula</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:0 auto;padding:16px;background:#f4f7fb;color:#172033;line-height:1.5}
+header,form,.panel{background:white;padding:18px;border:1px solid #d7deea;border-radius:12px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+label.field{display:block;font-weight:700}input[type=text]{width:100%;padding:10px;border:1px solid #aeb9ca;border-radius:7px;margin-top:5px;box-sizing:border-box}
+.question{border:1px solid #d7deea;border-radius:10px;padding:14px;margin:14px 0;background:#fff}.question legend{font-weight:700;padding:0 5px}
+.option{display:flex;align-items:flex-start;gap:8px;padding:7px;border-radius:6px;cursor:pointer}.option:hover{background:#eef5ff}.option input{margin-top:5px}
+button{padding:12px 16px;border:0;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer;margin:5px 6px 5px 0}.primary{background:#175cd3;color:white}.secondary{background:#e8edf5;color:#172033}
+#result{white-space:pre-wrap}.correct{color:#166534}.incorrect{color:#b42318}.small{color:#536176;font-size:.92rem}
+@media print{button,.no-print{display:none}body{background:white}header,form,.panel,.question{border:1px solid #aaa;box-shadow:none}}
+</style></head><body>
+<header><h1>Learning Without Borders</h1><h2>Mathematics: Subject of formula</h2>
+<p><strong>Class:</strong> SS1 &nbsp; <strong>Questions:</strong> 10</p><p>Choose the correct answer for each question.</p></header>
+<form id="worksheet"><section class="panel"><h3>Student details</h3><div class="grid">
+<label class="field">Student name *<input type="text" id="student_name" required></label>
+<label class="field">Class / arm<input type="text" id="student_class" value="SS1" required></label>
+</div></section>
+<fieldset class="question"><legend>1. Given that y = (3x + 5)/(2x - 1), make x the subject of the formula.</legend><label class="option"><input type="radio" name="q1" value="A"> <span><strong>A.</strong> (y + 5)/(2y - 3)</span></label><label class="option"><input type="radio" name="q1" value="B"> <span><strong>B.</strong> (y - 5)/(2y - 3)</span></label><label class="option"><input type="radio" name="q1" value="C"> <span><strong>C.</strong> (y + 5)/(2y + 3)</span></label><label class="option"><input type="radio" name="q1" value="D"> <span><strong>D.</strong> (y - 5)/(2y + 3)</span></label></fieldset>
+<fieldset class="question"><legend>2. If P = (a + b)/(a - b), express a in terms of P and b.</legend><label class="option"><input type="radio" name="q2" value="A"> <span><strong>A.</strong> b(P + 1)/(P - 1)</span></label><label class="option"><input type="radio" name="q2" value="B"> <span><strong>B.</strong> b(P - 1)/(P + 1)</span></label><label class="option"><input type="radio" name="q2" value="C"> <span><strong>C.</strong> b(P + 1)/P</span></label><label class="option"><input type="radio" name="q2" value="D"> <span><strong>D.</strong> b(P - 1)/P</span></label></fieldset>
+<fieldset class="question"><legend>3. Given that T = 2π√(l/g), make g the subject.</legend><label class="option"><input type="radio" name="q3" value="A"> <span><strong>A.</strong> 4π²l/T²</span></label><label class="option"><input type="radio" name="q3" value="B"> <span><strong>B.</strong> 2π²l/T</span></label><label class="option"><input type="radio" name="q3" value="C"> <span><strong>C.</strong> T²l/4π²</span></label><label class="option"><input type="radio" name="q3" value="D"> <span><strong>D.</strong> 4π²T²/l</span></label></fieldset>
+<fieldset class="question"><legend>4. If v² = u² + 2as, make s the subject.</legend><label class="option"><input type="radio" name="q4" value="A"> <span><strong>A.</strong> (v² - u²)/2a</span></label><label class="option"><input type="radio" name="q4" value="B"> <span><strong>B.</strong> (u² - v²)/2a</span></label><label class="option"><input type="radio" name="q4" value="C"> <span><strong>C.</strong> (v - u)/2a</span></label><label class="option"><input type="radio" name="q4" value="D"> <span><strong>D.</strong> (v² + u²)/2a</span></label></fieldset>
+<fieldset class="question"><legend>5. Given that y = √((x + a)/(x - a)), express x in terms of y and a.</legend><label class="option"><input type="radio" name="q5" value="A"> <span><strong>A.</strong> a(y² + 1)/(y² - 1)</span></label><label class="option"><input type="radio" name="q5" value="B"> <span><strong>B.</strong> a(y² - 1)/(y² + 1)</span></label><label class="option"><input type="radio" name="q5" value="C"> <span><strong>C.</strong> a(y + 1)/(y - 1)</span></label><label class="option"><input type="radio" name="q5" value="D"> <span><strong>D.</strong> a(y² + 1)/y²</span></label></fieldset>
+<fieldset class="question"><legend>6. If A = πr(r + l), make l the subject.</legend><label class="option"><input type="radio" name="q6" value="A"> <span><strong>A.</strong> (A - πr²)/πr</span></label><label class="option"><input type="radio" name="q6" value="B"> <span><strong>B.</strong> A/πr - r²</span></label><label class="option"><input type="radio" name="q6" value="C"> <span><strong>C.</strong> A - πr</span></label><label class="option"><input type="radio" name="q6" value="D"> <span><strong>D.</strong> (A + πr²)/πr</span></label></fieldset>
+<fieldset class="question"><legend>7. Given that x = (p - q)/(p + q), make p the subject.</legend><label class="option"><input type="radio" name="q7" value="A"> <span><strong>A.</strong> q(1 + x)/(1 - x)</span></label><label class="option"><input type="radio" name="q7" value="B"> <span><strong>B.</strong> q(1 - x)/(1 + x)</span></label><label class="option"><input type="radio" name="q7" value="C"> <span><strong>C.</strong> qx/(1 - x)</span></label><label class="option"><input type="radio" name="q7" value="D"> <span><strong>D.</strong> q(1 + x)/x</span></label></fieldset>
+<fieldset class="question"><legend>8. If y = (ax + b)/(cx + d), make x the subject.</legend><label class="option"><input type="radio" name="q8" value="A"> <span><strong>A.</strong> (b - dy)/(cy - a)</span></label><label class="option"><input type="radio" name="q8" value="B"> <span><strong>B.</strong> (dy - b)/(a - cy)</span></label><label class="option"><input type="radio" name="q8" value="C"> <span><strong>C.</strong> (b + dy)/(a + cy)</span></label><label class="option"><input type="radio" name="q8" value="D"> <span><strong>D.</strong> (dy + b)/(cy + a)</span></label></fieldset>
+<fieldset class="question"><legend>9. Given that 1/f = 1/u + 1/v, express v in terms of f and u.</legend><label class="option"><input type="radio" name="q9" value="A"> <span><strong>A.</strong> fu/(u - f)</span></label><label class="option"><input type="radio" name="q9" value="B"> <span><strong>B.</strong> fu/(f - u)</span></label><label class="option"><input type="radio" name="q9" value="C"> <span><strong>C.</strong> f + u</span></label><label class="option"><input type="radio" name="q9" value="D"> <span><strong>D.</strong> (u - f)/fu</span></label></fieldset>
+<fieldset class="question"><legend>10. If y = (x² + 1)/(2x), form a quadratic equation in x.</legend><label class="option"><input type="radio" name="q10" value="A"> <span><strong>A.</strong> x² - 2yx + 1 = 0</span></label><label class="option"><input type="radio" name="q10" value="B"> <span><strong>B.</strong> x² + 2yx + 1 = 0</span></label><label class="option"><input type="radio" name="q10" value="C"> <span><strong>C.</strong> 2x² - yx + 1 = 0</span></label><label class="option"><input type="radio" name="q10" value="D"> <span><strong>D.</strong> x² - yx - 1 = 0</span></label></fieldset>
+<div class="no-print"><button class="primary" type="submit">Submit answers and see score</button><button class="secondary" type="button" onclick="window.print()">Print worksheet</button></div>
+</form>
+<section id="result" class="panel" aria-live="polite" hidden></section>
+<p class="small">Please submit only once unless your teacher instructs otherwise. Your result may be sent to your teacher for marking records.</p>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+const ANSWERS = {"1":"A","2":"A","3":"A","4":"A","5":"A","6":"A","7":"A","8":"A","9":"A","10":"A"};
+const META = {"school":"Learning Without Borders","subject":"Mathematics","className":"SS1","topic":"Subject of formula","instructions":"Choose the correct answer for each question.","passMark":70,"publicKey":"JD6I_4czDlm39KpcO","serviceId":"service_a3gbno7","templateId":"template_9oxrolw"};
+const TOTAL = 10;
+if (META.publicKey && window.emailjs) { try { emailjs.init({publicKey: META.publicKey}); } catch(e) {} }
+document.getElementById('worksheet').addEventListener('submit', async function(event) {
+  event.preventDefault();
+  const name = document.getElementById('student_name').value.trim();
+  const studentClass = document.getElementById('student_class').value.trim();
+  if (!name || !studentClass) { alert('Please enter your name and class.'); return; }
+  let score = 0, answered = 0, lines = [];
+  for (let i=1; i<=TOTAL; i++) {
+    const chosen = document.querySelector('input[name="q'+i+'"]:checked');
+    const val = chosen ? chosen.value : '';
+    if (val) answered++;
+    if (val === ANSWERS[i]) score++;
+    lines.push('Q'+i+': Student answer: '+(val || 'Not answered')+' | Correct answer: '+ANSWERS[i]);
+  }
+  const percentage = Math.round((score / TOTAL) * 100);
+  const result = document.getElementById('result');
+  result.hidden = false;
+  result.innerHTML = '<h2>Worksheet result</h2><p><strong>Student:</strong> '+escapeText(name)+'</p><p><strong>Score:</strong> '+score+' / '+TOTAL+'</p><p><strong>Percentage:</strong> '+percentage+'%</p><p><strong>Status:</strong> '+(percentage >= META.passMark ? 'Pass' : 'Keep practising')+'</p><h3>Answer review</h3>'+lines.map((line,i)=>'<p class="'+((((document.querySelector('input[name=q'+(i+1)+']:checked') || {}).value)===ANSWERS[i+1])?'correct':'incorrect')+'">'+escapeText(line)+'</p>').join('');
+  result.scrollIntoView({behavior:'smooth'});
+  if (META.publicKey && META.serviceId && META.templateId && window.emailjs && typeof emailjs.send === 'function') {
+    try {
+      await emailjs.send(META.serviceId, META.templateId, {
+        student_name: name,
+        student_class: studentClass,
+        subject: META.subject,
+        topic: META.topic,
+        score: score+' / '+TOTAL,
+        percentage: percentage+'%',
+        answers: lines.join('\n')
+      });
+      const notice = document.createElement('p');
+      notice.className = 'correct';
+      notice.textContent = 'Your result has been submitted successfully.';
+      result.appendChild(notice);
+    } catch (err) {
+      const notice = document.createElement('p');
+      notice.className = 'incorrect';
+      notice.textContent = 'Your score is shown above, but the email submission did not succeed. Please tell your teacher.';
+      result.appendChild(notice);
+    }
+  } else {
+    const notice = document.createElement('p');
+    notice.className = 'incorrect';
+    notice.textContent = 'Your score is shown above, but email could not be sent because EmailJS is not configured or could not load.';
+    result.appendChild(notice);
+  }
+});
+function escapeText(value) {
+  return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+</script></body></html>
